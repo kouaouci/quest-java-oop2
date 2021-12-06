@@ -1,4 +1,4 @@
-public class Eagle extends Bird {  
+public class Eagle extends Bird implements Fly {  
       
     private boolean flying;
     
@@ -19,4 +19,5 @@ public class Eagle extends Bird {
     public void setFlying(boolean flying) {  
         this.flying = flying;  
     }  
+    @
 }
